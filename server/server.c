@@ -2,7 +2,6 @@
 
 #include <enet/enet.h>
 
-//#include <zip.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +9,6 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
-//#include <sys/syslimits.h>
 #include <ftw.h>
 #include <errno.h>
 
@@ -43,10 +41,9 @@ int rm( const char *path, const struct stat *s, int flag, struct FTW *f ) {
 }
 
 int launch_compilation(void *data, size_t size, const char *folder) {
-    char *file = (char*)malloc(strlen("project.zip") + strlen(folder));
+    char *file = (char*)malloc(strlen("/project.zip") + strlen(folder) + 1);
     strcpy(file, folder);
-    strcat(file, "/");
-    strcat(file, "project.zip");
+    strcat(file, "/project.zip");
 
     int fd = open(file, O_RDWR | O_TRUNC | O_CREAT, 0644);
     if (fd < 0) {
@@ -54,6 +51,8 @@ int launch_compilation(void *data, size_t size, const char *folder) {
         exit(101);
     }
 
+    //free(file);
+    
     write(fd, data, size);
 
     close(fd);
@@ -89,21 +88,19 @@ int launch_compilation(void *data, size_t size, const char *folder) {
     fp = popen(command, "r");
 
     while (fgets(buf, 256, fp) != NULL) {
-        printf("%s\n", buf);
-        const char *e = "Error";
-        if (strcmp(e, buf)) {
+        //printf("%s\n", buf);
+        char *e = "Error";
+        if (strstr(e, buf) != NULL) {
             pclose(fp);
             free(command);
             free(file);
             return 0;
         }
     }
-
     
     pclose(fp);
 
     free(command);
-    free(file);
 
     return 1;
 }
@@ -141,7 +138,6 @@ int main(int argc, char *argv[]) {
     /* Wait up to 5000 milliseconds for an event. */
     while (1) {
         if (enet_host_service(pServer, &event, 0) > 0) {
-            printf("Event %u\n", event.type);
             switch (event.type) {
                 case ENET_EVENT_TYPE_CONNECT:
                     printf("A new client connected from %x:%u.\n", 
@@ -151,14 +147,8 @@ int main(int argc, char *argv[]) {
                     event.peer->data = "Client information";
                     break;
                 case ENET_EVENT_TYPE_RECEIVE:
-                    printf("A packet of length %zu containing %s was received from %s on channel %u.\n",
-                           event.packet->dataLength,
-                           (char*)event.packet->data,
-                           (char*)event.peer->data,
-                           event.channelID);
-                    /* Clean up the packet now that we're done using it. */
-
-                    char *folder = (char*)malloc(sizeof(event.peer->address.host)+2);
+                {
+                    char *folder = (char*)malloc(sizeof(event.peer->address.host)+3);
                     sprintf(folder,"./%x", event.peer->address.host);
                     safe_create_dir(folder);
 
@@ -169,7 +159,8 @@ int main(int argc, char *argv[]) {
                         fprintf(stderr, "Fail to remove folder.");
                         return 128;
                     }
-                    free(folder);
+
+                    //free(folder);
 
                     enet_packet_destroy (event.packet);
 
@@ -186,6 +177,7 @@ int main(int argc, char *argv[]) {
                     enet_host_flush(pServer);
                     
                     break;
+                }
                 case ENET_EVENT_TYPE_DISCONNECT:
                     printf("%s disconnected.\n", (char*)event.peer->data);
                     /* Reset the peer's client information. */

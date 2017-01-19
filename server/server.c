@@ -90,13 +90,35 @@ int launch_compilation(void *data, size_t size, const char *folder) {
     while (fgets(buf, 256, fp) != NULL) {
         //printf("%s\n", buf);
         char *e = "Error";
-        if (strstr(e, buf) != NULL) {
+        /*if (strstr(e, buf) != NULL) {
+            printf("Error compiling the project.\n");
             pclose(fp);
             free(command);
             free(file);
             return 0;
+        }*/
+
+        int i, j=0, k;
+        for(i=0; buf[i]; i++) {
+            if(buf[i] == e[j]) {
+                for(k=i, j=0; buf[k] && e[j]; j++, k++) {
+                    if(buf[k] != e[j]){
+                        break;
+                    }
+                }
+                
+                if(!e[j]) {
+                    printf("Error compiling the project.\n");
+                    pclose(fp);
+                    free(command);
+                    free(file);
+                    return 0;
+                }
+            }
         }
     }
+    
+    printf("Project compiled correctly.\n");
     
     pclose(fp);
 

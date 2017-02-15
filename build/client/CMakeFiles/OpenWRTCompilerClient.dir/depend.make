@@ -10,8 +10,6 @@ client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../include/enet/protocol
 client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../include/enet/types.h
 client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../include/enet/unix.h
 client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../include/enet/win32.h
-client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../include/zip.h
-client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../include/zipconf.h
 client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o: ../client/client.c
 
 client/CMakeFiles/OpenWRTCompilerClient.dir/compress.c.o: ../client/compress.c

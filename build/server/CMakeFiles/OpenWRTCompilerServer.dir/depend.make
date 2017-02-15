@@ -73,8 +73,6 @@ server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../include/enet/protocol
 server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../include/enet/types.h
 server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../include/enet/unix.h
 server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../include/enet/win32.h
-server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../include/zip.h
-server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../include/zipconf.h
 server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o: ../server/server.c
 
 server/CMakeFiles/OpenWRTCompilerServer.dir/unix.c.o: ../include/enet/callbacks.h

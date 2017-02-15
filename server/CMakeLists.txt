@@ -16,11 +16,11 @@ SET(SOURCES
   )
 
 #Bring the headers into the project
-INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/include
-    ${CMAKE_SOURCE_DIR}/libzip/lib
-    ${CMAKE_BINARY_DIR}/libzip)
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/include)
+    #${CMAKE_SOURCE_DIR}/libzip/lib
+    #${CMAKE_BINARY_DIR}/libzip)
 
 LINK_DIRECTORIES(${CMAKE_BINARY_DIR}/libzip/lib/)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} zip)
+#TARGET_LINK_LIBRARIES(${PROJECT_NAME} zip)

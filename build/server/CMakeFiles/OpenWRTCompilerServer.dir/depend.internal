@@ -74,8 +74,6 @@ server/CMakeFiles/OpenWRTCompilerServer.dir/server.c.o
  ../include/enet/types.h
  ../include/enet/unix.h
  ../include/enet/win32.h
- ../include/zip.h
- ../include/zipconf.h
  /home/fserrano/OpenWRTCompilerServer/server/server.c
 server/CMakeFiles/OpenWRTCompilerServer.dir/unix.c.o
  ../include/enet/callbacks.h

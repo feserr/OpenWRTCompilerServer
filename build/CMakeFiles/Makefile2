@@ -585,7 +585,7 @@ server/preinstall:
 # Target rules for target server/CMakeFiles/OpenWRTCompilerServer.dir
 
 # All Build rule for target.
-server/CMakeFiles/OpenWRTCompilerServer.dir/all: libzip/lib/CMakeFiles/zip.dir/all
+server/CMakeFiles/OpenWRTCompilerServer.dir/all:
 	$(MAKE) -f server/CMakeFiles/OpenWRTCompilerServer.dir/build.make server/CMakeFiles/OpenWRTCompilerServer.dir/depend
 	$(MAKE) -f server/CMakeFiles/OpenWRTCompilerServer.dir/build.make server/CMakeFiles/OpenWRTCompilerServer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles  8 9 10 11 12 13 14 15
@@ -598,7 +598,7 @@ all: server/CMakeFiles/OpenWRTCompilerServer.dir/all
 
 # Build rule for subdir invocation for target.
 server/CMakeFiles/OpenWRTCompilerServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles 84
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 server/CMakeFiles/OpenWRTCompilerServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles 0
 .PHONY : server/CMakeFiles/OpenWRTCompilerServer.dir/rule

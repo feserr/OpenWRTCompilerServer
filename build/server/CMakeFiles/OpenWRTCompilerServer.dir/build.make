@@ -306,8 +306,6 @@ server/OpenWRTCompilerServer: server/CMakeFiles/OpenWRTCompilerServer.dir/protoc
 server/OpenWRTCompilerServer: server/CMakeFiles/OpenWRTCompilerServer.dir/unix.c.o
 server/OpenWRTCompilerServer: server/CMakeFiles/OpenWRTCompilerServer.dir/win32.c.o
 server/OpenWRTCompilerServer: server/CMakeFiles/OpenWRTCompilerServer.dir/build.make
-server/OpenWRTCompilerServer: libzip/lib/libzip.so.3.0
-server/OpenWRTCompilerServer: /usr/lib/x86_64-linux-gnu/libz.so
 server/OpenWRTCompilerServer: server/CMakeFiles/OpenWRTCompilerServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable OpenWRTCompilerServer"
 	cd /home/fserrano/OpenWRTCompilerServer/build/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenWRTCompilerServer.dir/link.txt --verbose=$(VERBOSE)

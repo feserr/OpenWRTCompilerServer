@@ -11,8 +11,6 @@ client/CMakeFiles/OpenWRTCompilerClient.dir/client.c.o
  ../include/enet/types.h
  ../include/enet/unix.h
  ../include/enet/win32.h
- ../include/zip.h
- ../include/zipconf.h
  /home/fserrano/OpenWRTCompilerServer/client/client.c
 client/CMakeFiles/OpenWRTCompilerClient.dir/compress.c.o
  /home/fserrano/OpenWRTCompilerServer/client/compress.c

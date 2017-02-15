@@ -1,6 +1,5 @@
 #include <enet/enet.h>
 
-#include <zip.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -94,9 +93,6 @@ static int get_data(void **datap, size_t *sizep, const char *archive) {
 }
 
 int send_zip(const char *file, ENetPeer *peer, ENetHost *host) {
-    zip_source_t *src;
-    zip_t *za;
-    zip_error_t error;
     void *data;
     size_t size;
 
@@ -114,38 +110,6 @@ int send_zip(const char *file, ENetPeer *peer, ENetHost *host) {
         ENET_PACKET_FLAG_RELIABLE);
     enet_peer_send(peer, 0, packet);
     enet_host_flush(host);
-
-    zip_error_init(&error);
-    /* create source from buffer */
-    if ((src = zip_source_buffer_create(data, size, 1, &error)) == NULL) {
-	    fprintf(stderr, "can't create source: %s\n", zip_error_strerror(&error));
-	    free(data);
-	    zip_error_fini(&error);
-	    return 1;
-    }
-
-    /* open zip archive from source */
-    if ((za = zip_open_from_source(src, 0, &error)) == NULL) {
-	    fprintf(stderr, "can't open zip from source: %s\n", zip_error_strerror(&error));
-	    zip_source_free(src);
-	    zip_error_fini(&error);
-	    return 1;
-    }
-    zip_error_fini(&error);
-    
-    zip_stat_t zst;
-
-	if (zip_source_stat(src, &zst) < 0) {
-	    fprintf(stderr, "can't stat source: %s\n", zip_error_strerror(zip_source_error(src)));
-	    return 1;
-	}
-
-	size = zst.size;
-
-	zip_source_close(src);
-	
-	/* we're done with src */
-    zip_source_free(src);
 }
 
 int main(int argc, char *argv[]) {
@@ -162,6 +126,19 @@ int main(int argc, char *argv[]) {
     ENetPeer *peer = setup_network(pClient, address);
 
     send_zip(archive, peer, pClient);
+
+    ENetEvent event;
+    if (enet_host_service(pClient, &event, 5000) > 0) {
+        if (event.type == ENET_EVENT_TYPE_RECEIVE) {
+            printf("%s\n", event.packet->data);
+            char *c = event.packet->data;
+            if (strchr("error", *c)) {
+                printf("Error to compile the project in the server.\n");
+            } else if (strchr("valid", *c)) {
+                printf("The server compiled the project correctly.\n");
+            }
+        }
+    }
     
     /* We've arrived here, so the disconnect attempt didn't */
     /* succeed yet.  Force the connection down.             */

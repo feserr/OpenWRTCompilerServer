@@ -28,9 +28,6 @@ ENetHost* setup_host() {
 }
 
 ENetPeer* setup_network(ENetHost *host, ENetAddress address) {
-    enet_address_set_host(&address, "localhost");
-    address.port = 7000;
-
     ENetPeer *peer = enet_host_connect(host, &address, 2, 0);
     if (peer == NULL) {
         fprintf (stderr, 
@@ -98,24 +95,26 @@ int send_zip(const char *file, ENetPeer *peer, ENetHost *host) {
 
     if (file == NULL) {
 	    fprintf(stderr, "Wrong file.\n");
-	    return 1;
+	    return 0;
     }
 
     /* get buffer with zip archive inside */
     if (get_data(&data, &size, file) < 0) {
-	    return 1;
+	    return 0;
     }
     
     ENetPacket *packet = enet_packet_create(data, size,
         ENET_PACKET_FLAG_RELIABLE);
     enet_peer_send(peer, 0, packet);
     enet_host_flush(host);
+
+    return 1;
 }
 
 int main(int argc, char *argv[]) {
     const char *archive;
-    if (argc < 2) {
-        fprintf(stderr, "usage: %s archive\n", argv[0]);
+    if (argc < 4) {
+        fprintf(stderr, "usage: %s archive ip port\n", argv[0]);
         return 1;
     }
     archive = argv[1];
@@ -123,6 +122,8 @@ int main(int argc, char *argv[]) {
     ENetHost *pClient = setup_host();
     
     ENetAddress address;
+    enet_address_set_host(&address, argv[2]);
+    address.port = atoi(argv[3]);
     ENetPeer *peer = setup_network(pClient, address);
 
     send_zip(archive, peer, pClient);
@@ -131,10 +132,10 @@ int main(int argc, char *argv[]) {
     if (enet_host_service(pClient, &event, 5000) > 0) {
         if (event.type == ENET_EVENT_TYPE_RECEIVE) {
             printf("%s\n", event.packet->data);
-            char *c = event.packet->data;
-            if (strchr("error", *c)) {
+            char *c = (char*)event.packet->data;
+            if (strstr("error", c) != NULL) {
                 printf("Error to compile the project in the server.\n");
-            } else if (strchr("valid", *c)) {
+            } else if (strstr("valid", c) != NULL) {
                 printf("The server compiled the project correctly.\n");
             }
         }

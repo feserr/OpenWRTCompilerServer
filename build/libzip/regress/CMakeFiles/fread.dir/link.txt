@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/fread.dir/fread.c.o  -o fread -rdynamic ../lib/libzip.so.3.0 -lz -Wl,-rpath,/home/fserrano/OpenWRTCompilerServer/build/libzip/lib 

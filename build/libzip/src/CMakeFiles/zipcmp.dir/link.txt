@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/zipcmp.dir/zipcmp.c.o  -o zipcmp -rdynamic ../lib/libzip.so.3.0 -lz -Wl,-rpath,/home/fserrano/OpenWRTCompilerServer/build/libzip/lib: 

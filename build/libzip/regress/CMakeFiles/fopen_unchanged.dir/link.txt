@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/fopen_unchanged.dir/fopen_unchanged.c.o  -o fopen_unchanged -rdynamic ../lib/libzip.so.3.0 -lz -Wl,-rpath,/home/fserrano/OpenWRTCompilerServer/build/libzip/lib 

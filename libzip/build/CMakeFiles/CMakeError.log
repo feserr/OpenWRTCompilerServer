@@ -1,0 +1,488 @@
+Determining if the function _close exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1926526201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1926526201.dir/build.make CMakeFiles/cmTryCompileExec1926526201.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1926526201.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_close   -o CMakeFiles/cmTryCompileExec1926526201.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1926526201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1926526201.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_close    CMakeFiles/cmTryCompileExec1926526201.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1926526201 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+CMakeFiles/cmTryCompileExec1926526201.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_close' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1926526201] Error 1
+make: *** [cmTryCompileExec1926526201/fast] Error 2
+
+
+Determining if the function _dup exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2616626174/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2616626174.dir/build.make CMakeFiles/cmTryCompileExec2616626174.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2616626174.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_dup   -o CMakeFiles/cmTryCompileExec2616626174.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2616626174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2616626174.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_dup    CMakeFiles/cmTryCompileExec2616626174.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2616626174 -rdynamic 
+CMakeFiles/cmTryCompileExec2616626174.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_dup' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec2616626174] Error 1
+make: *** [cmTryCompileExec2616626174/fast] Error 2
+
+
+Determining if the function _fdopen exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec342942904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec342942904.dir/build.make CMakeFiles/cmTryCompileExec342942904.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec342942904.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fdopen   -o CMakeFiles/cmTryCompileExec342942904.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec342942904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec342942904.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fdopen    CMakeFiles/cmTryCompileExec342942904.dir/CheckFunctionExists.c.o  -o cmTryCompileExec342942904 -rdynamic 
+CMakeFiles/cmTryCompileExec342942904.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_fdopen' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec342942904] Error 1
+make: *** [cmTryCompileExec342942904/fast] Error 2
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4018162540/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4018162540.dir/build.make CMakeFiles/cmTryCompileExec4018162540.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4018162540.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fileno   -o CMakeFiles/cmTryCompileExec4018162540.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4018162540
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4018162540.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fileno    CMakeFiles/cmTryCompileExec4018162540.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4018162540 -rdynamic 
+CMakeFiles/cmTryCompileExec4018162540.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_fileno' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec4018162540] Error 1
+make: *** [cmTryCompileExec4018162540/fast] Error 2
+
+
+Determining if the function _open exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2301946715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2301946715.dir/build.make CMakeFiles/cmTryCompileExec2301946715.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2301946715.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_open   -o CMakeFiles/cmTryCompileExec2301946715.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2301946715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2301946715.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_open    CMakeFiles/cmTryCompileExec2301946715.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2301946715 -rdynamic 
+CMakeFiles/cmTryCompileExec2301946715.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_open' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec2301946715] Error 1
+make: *** [cmTryCompileExec2301946715/fast] Error 2
+
+
+Determining if the function _setmode exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec949197683/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec949197683.dir/build.make CMakeFiles/cmTryCompileExec949197683.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec949197683.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_setmode   -o CMakeFiles/cmTryCompileExec949197683.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec949197683
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec949197683.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_setmode    CMakeFiles/cmTryCompileExec949197683.dir/CheckFunctionExists.c.o  -o cmTryCompileExec949197683 -rdynamic 
+CMakeFiles/cmTryCompileExec949197683.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_setmode' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec949197683] Error 1
+make: *** [cmTryCompileExec949197683/fast] Error 2
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec958057679/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec958057679.dir/build.make CMakeFiles/cmTryCompileExec958057679.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec958057679.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTryCompileExec958057679.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec958057679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec958057679.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snprintf    CMakeFiles/cmTryCompileExec958057679.dir/CheckFunctionExists.c.o  -o cmTryCompileExec958057679 -rdynamic 
+CMakeFiles/cmTryCompileExec958057679.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_snprintf' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec958057679] Error 1
+make: *** [cmTryCompileExec958057679/fast] Error 2
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec222002538/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec222002538.dir/build.make CMakeFiles/cmTryCompileExec222002538.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec222002538.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup   -o CMakeFiles/cmTryCompileExec222002538.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec222002538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec222002538.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup    CMakeFiles/cmTryCompileExec222002538.dir/CheckFunctionExists.c.o  -o cmTryCompileExec222002538 -rdynamic 
+CMakeFiles/cmTryCompileExec222002538.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_strdup' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec222002538] Error 1
+make: *** [cmTryCompileExec222002538/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1279742524/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1279742524.dir/build.make CMakeFiles/cmTryCompileExec1279742524.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1279742524.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTryCompileExec1279742524.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1279742524
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1279742524.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp    CMakeFiles/cmTryCompileExec1279742524.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1279742524 -rdynamic 
+CMakeFiles/cmTryCompileExec1279742524.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_stricmp' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec1279742524] Error 1
+make: *** [cmTryCompileExec1279742524/fast] Error 2
+
+
+Determining if the function getprogname exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3371627515/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3371627515.dir/build.make CMakeFiles/cmTryCompileExec3371627515.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3371627515.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getprogname   -o CMakeFiles/cmTryCompileExec3371627515.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3371627515
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3371627515.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getprogname    CMakeFiles/cmTryCompileExec3371627515.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3371627515 -rdynamic 
+CMakeFiles/cmTryCompileExec3371627515.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `getprogname' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec3371627515] Error 1
+make: *** [cmTryCompileExec3371627515/fast] Error 2
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3336337456/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3336337456.dir/build.make CMakeFiles/cmTryCompileExec3336337456.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3336337456.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setmode   -o CMakeFiles/cmTryCompileExec3336337456.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3336337456
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3336337456.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setmode    CMakeFiles/cmTryCompileExec3336337456.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3336337456 -rdynamic 
+CMakeFiles/cmTryCompileExec3336337456.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `setmode' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec3336337456] Error 1
+make: *** [cmTryCompileExec3336337456/fast] Error 2
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1421568875/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1421568875.dir/build.make CMakeFiles/cmTryCompileExec1421568875.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1421568875.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp   -o CMakeFiles/cmTryCompileExec1421568875.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1421568875
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1421568875.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp    CMakeFiles/cmTryCompileExec1421568875.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1421568875 -rdynamic 
+CMakeFiles/cmTryCompileExec1421568875.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `stricmp' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec1421568875] Error 1
+make: *** [cmTryCompileExec1421568875/fast] Error 2
+
+
+Determining size of __int8 failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3423235750/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3423235750.dir/build.make CMakeFiles/cmTryCompileExec3423235750.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3423235750.dir/__INT8_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3423235750.dir/__INT8_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:17:22: error: ‘__int8’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int8))
+                      ^
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec3423235750.dir/__INT8_LIBZIP.c.o] Error 1
+make: *** [cmTryCompileExec3423235750/fast] Error 2
+
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3485365121/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3485365121.dir/build.make CMakeFiles/cmTryCompileExec3485365121.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3485365121.dir/__INT16_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3485365121.dir/__INT16_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:17:22: error: ‘__int16’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int16))
+                      ^
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec3485365121.dir/__INT16_LIBZIP.c.o] Error 1
+make: *** [cmTryCompileExec3485365121/fast] Error 2
+
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec841383560/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec841383560.dir/build.make CMakeFiles/cmTryCompileExec841383560.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec841383560.dir/__INT32_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec841383560.dir/__INT32_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:17:22: error: ‘__int32’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int32))
+                      ^
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec841383560.dir/__INT32_LIBZIP.c.o] Error 1
+make: *** [cmTryCompileExec841383560/fast] Error 2
+
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1153284919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1153284919.dir/build.make CMakeFiles/cmTryCompileExec1153284919.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1153284919.dir/__INT64_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1153284919.dir/__INT64_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec1153284919.dir/__INT64_LIBZIP.c.o] Error 1
+make: *** [cmTryCompileExec1153284919/fast] Error 2
+
+/home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

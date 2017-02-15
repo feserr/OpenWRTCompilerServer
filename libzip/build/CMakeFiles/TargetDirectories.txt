@@ -1,0 +1,10 @@
+/home/fserrano/libzip/build/regress/CMakeFiles/add_from_filep.dir
+/home/fserrano/libzip/build/regress/CMakeFiles/fopen_unchanged.dir
+/home/fserrano/libzip/build/regress/CMakeFiles/fread.dir
+/home/fserrano/libzip/build/src/CMakeFiles/hole.dir
+/home/fserrano/libzip/build/examples/CMakeFiles/in-memory.dir
+/home/fserrano/libzip/build/regress/CMakeFiles/tryopen.dir
+/home/fserrano/libzip/build/lib/CMakeFiles/zip.dir
+/home/fserrano/libzip/build/src/CMakeFiles/zipcmp.dir
+/home/fserrano/libzip/build/src/CMakeFiles/zipmerge.dir
+/home/fserrano/libzip/build/src/CMakeFiles/ziptool.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/ziptool.dir/ziptool.c.o CMakeFiles/ziptool.dir/source_hole.c.o  -o ziptool -rdynamic ../lib/libzip.so.3.0 -lz -Wl,-rpath,/home/fserrano/libzip/build/lib: 

@@ -1,0 +1,655 @@
+The system is: Linux - 3.19.0-25-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fserrano/libzip/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec479329299/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec479329299.dir/build.make CMakeFiles/cmTryCompileExec479329299.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec479329299.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec479329299.dir/testCCompiler.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec479329299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec479329299.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec479329299.dir/testCCompiler.c.o  -o cmTryCompileExec479329299 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3977251042/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3977251042.dir/build.make CMakeFiles/cmTryCompileExec3977251042.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3977251042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3977251042.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3977251042 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3977251042' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3977251042 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3977251042/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3977251042.dir/build.make CMakeFiles/cmTryCompileExec3977251042.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3977251042]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3977251042.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3977251042 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3977251042' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3977251042 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3977251042] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3977251042.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function fileno exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3329767371/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3329767371.dir/build.make CMakeFiles/cmTryCompileExec3329767371.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3329767371.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fileno   -o CMakeFiles/cmTryCompileExec3329767371.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3329767371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3329767371.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fileno    CMakeFiles/cmTryCompileExec3329767371.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3329767371 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3629864383/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3629864383.dir/build.make CMakeFiles/cmTryCompileExec3629864383.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3629864383.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec3629864383.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3629864383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3629864383.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec3629864383.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3629864383 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2373837394/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2373837394.dir/build.make CMakeFiles/cmTryCompileExec2373837394.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2373837394.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTryCompileExec2373837394.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2373837394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2373837394.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello    CMakeFiles/cmTryCompileExec2373837394.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2373837394 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3654699304/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3654699304.dir/build.make CMakeFiles/cmTryCompileExec3654699304.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3654699304.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open   -o CMakeFiles/cmTryCompileExec3654699304.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3654699304
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3654699304.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open    CMakeFiles/cmTryCompileExec3654699304.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3654699304 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3696214935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3696214935.dir/build.make CMakeFiles/cmTryCompileExec3696214935.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3696214935.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTryCompileExec3696214935.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3696214935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3696214935.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec3696214935.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3696214935 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1665754516/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1665754516.dir/build.make CMakeFiles/cmTryCompileExec1665754516.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1665754516.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec1665754516.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1665754516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1665754516.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTryCompileExec1665754516.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1665754516 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2310423787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2310423787.dir/build.make CMakeFiles/cmTryCompileExec2310423787.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2310423787.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTryCompileExec2310423787.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2310423787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2310423787.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTryCompileExec2310423787.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2310423787 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1671392969/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1671392969.dir/build.make CMakeFiles/cmTryCompileExec1671392969.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1671392969.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec1671392969.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1671392969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1671392969.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTryCompileExec1671392969.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1671392969 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files fts.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2070242874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2070242874.dir/build.make CMakeFiles/cmTryCompileExec2070242874.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2070242874.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2070242874.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2070242874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2070242874.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2070242874.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2070242874 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3226835632/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3226835632.dir/build.make CMakeFiles/cmTryCompileExec3226835632.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3226835632.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3226835632.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3226835632
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3226835632.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3226835632.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3226835632 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec382111229/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec382111229.dir/build.make CMakeFiles/cmTryCompileExec382111229.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec382111229.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec382111229.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec382111229
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec382111229.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec382111229.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec382111229 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3918646331/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3918646331.dir/build.make CMakeFiles/cmTryCompileExec3918646331.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3918646331.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3918646331.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3918646331
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3918646331.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3918646331.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3918646331 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2607383198/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2607383198.dir/build.make CMakeFiles/cmTryCompileExec2607383198.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2607383198.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2607383198.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2607383198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2607383198.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2607383198.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2607383198 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec809583326/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec809583326.dir/build.make CMakeFiles/cmTryCompileExec809583326.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec809583326.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec809583326.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec809583326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec809583326.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec809583326.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec809583326 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3687915479/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3687915479.dir/build.make CMakeFiles/cmTryCompileExec3687915479.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3687915479.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3687915479.dir/CheckIncludeFiles.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3687915479
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3687915479.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3687915479.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3687915479 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3652941183/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3652941183.dir/build.make CMakeFiles/cmTryCompileExec3652941183.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3652941183.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3652941183.dir/CheckIncludeFile.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3652941183
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3652941183.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3652941183.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3652941183 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3014238595/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3014238595.dir/build.make CMakeFiles/cmTryCompileExec3014238595.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3014238595.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3014238595.dir/CheckIncludeFile.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3014238595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3014238595.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3014238595.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3014238595 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1695137031/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1695137031.dir/build.make CMakeFiles/cmTryCompileExec1695137031.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1695137031.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1695137031.dir/CheckIncludeFile.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1695137031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1695137031.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1695137031.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1695137031 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3600391368/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3600391368.dir/build.make CMakeFiles/cmTryCompileExec3600391368.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3600391368.dir/INT8_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3600391368.dir/INT8_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/INT8_T_LIBZIP.c
+Linking C executable cmTryCompileExec3600391368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3600391368.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3600391368.dir/INT8_T_LIBZIP.c.o  -o cmTryCompileExec3600391368 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1753913320/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1753913320.dir/build.make CMakeFiles/cmTryCompileExec1753913320.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1753913320.dir/UINT8_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1753913320.dir/UINT8_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/UINT8_T_LIBZIP.c
+Linking C executable cmTryCompileExec1753913320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1753913320.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1753913320.dir/UINT8_T_LIBZIP.c.o  -o cmTryCompileExec1753913320 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec744351008/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec744351008.dir/build.make CMakeFiles/cmTryCompileExec744351008.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec744351008.dir/INT16_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec744351008.dir/INT16_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/INT16_T_LIBZIP.c
+Linking C executable cmTryCompileExec744351008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec744351008.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec744351008.dir/INT16_T_LIBZIP.c.o  -o cmTryCompileExec744351008 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1930390286/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1930390286.dir/build.make CMakeFiles/cmTryCompileExec1930390286.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1930390286.dir/UINT16_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1930390286.dir/UINT16_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/UINT16_T_LIBZIP.c
+Linking C executable cmTryCompileExec1930390286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1930390286.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1930390286.dir/UINT16_T_LIBZIP.c.o  -o cmTryCompileExec1930390286 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2653678601/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2653678601.dir/build.make CMakeFiles/cmTryCompileExec2653678601.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2653678601.dir/INT32_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2653678601.dir/INT32_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/INT32_T_LIBZIP.c
+Linking C executable cmTryCompileExec2653678601
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2653678601.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2653678601.dir/INT32_T_LIBZIP.c.o  -o cmTryCompileExec2653678601 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1940532309/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1940532309.dir/build.make CMakeFiles/cmTryCompileExec1940532309.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1940532309.dir/UINT32_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1940532309.dir/UINT32_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/UINT32_T_LIBZIP.c
+Linking C executable cmTryCompileExec1940532309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1940532309.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1940532309.dir/UINT32_T_LIBZIP.c.o  -o cmTryCompileExec1940532309 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1111371669/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1111371669.dir/build.make CMakeFiles/cmTryCompileExec1111371669.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1111371669.dir/INT64_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1111371669.dir/INT64_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/INT64_T_LIBZIP.c
+Linking C executable cmTryCompileExec1111371669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1111371669.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1111371669.dir/INT64_T_LIBZIP.c.o  -o cmTryCompileExec1111371669 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3215566913/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3215566913.dir/build.make CMakeFiles/cmTryCompileExec3215566913.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3215566913.dir/UINT64_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3215566913.dir/UINT64_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/UINT64_T_LIBZIP.c
+Linking C executable cmTryCompileExec3215566913
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3215566913.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3215566913.dir/UINT64_T_LIBZIP.c.o  -o cmTryCompileExec3215566913 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec208807947/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec208807947.dir/build.make CMakeFiles/cmTryCompileExec208807947.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec208807947.dir/SHORT_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec208807947.dir/SHORT_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/SHORT_LIBZIP.c
+Linking C executable cmTryCompileExec208807947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec208807947.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec208807947.dir/SHORT_LIBZIP.c.o  -o cmTryCompileExec208807947 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2844401926/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2844401926.dir/build.make CMakeFiles/cmTryCompileExec2844401926.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2844401926.dir/INT_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2844401926.dir/INT_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/INT_LIBZIP.c
+Linking C executable cmTryCompileExec2844401926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2844401926.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2844401926.dir/INT_LIBZIP.c.o  -o cmTryCompileExec2844401926 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec222771301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec222771301.dir/build.make CMakeFiles/cmTryCompileExec222771301.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec222771301.dir/LONG_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec222771301.dir/LONG_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/LONG_LIBZIP.c
+Linking C executable cmTryCompileExec222771301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec222771301.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec222771301.dir/LONG_LIBZIP.c.o  -o cmTryCompileExec222771301 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2407539282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2407539282.dir/build.make CMakeFiles/cmTryCompileExec2407539282.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2407539282.dir/LONG_LONG_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2407539282.dir/LONG_LONG_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/LONG_LONG_LIBZIP.c
+Linking C executable cmTryCompileExec2407539282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2407539282.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2407539282.dir/LONG_LONG_LIBZIP.c.o  -o cmTryCompileExec2407539282 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3846144178/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3846144178.dir/build.make CMakeFiles/cmTryCompileExec3846144178.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3846144178.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3846144178.dir/SIZEOF_OFF_T.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTryCompileExec3846144178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3846144178.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3846144178.dir/SIZEOF_OFF_T.c.o  -o cmTryCompileExec3846144178 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3805736340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3805736340.dir/build.make CMakeFiles/cmTryCompileExec3805736340.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3805736340.dir/SIZE_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3805736340.dir/SIZE_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/SIZE_T_LIBZIP.c
+Linking C executable cmTryCompileExec3805736340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3805736340.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3805736340.dir/SIZE_T_LIBZIP.c.o  -o cmTryCompileExec3805736340 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec425578584/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec425578584.dir/build.make CMakeFiles/cmTryCompileExec425578584.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec425578584.dir/SSIZE_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec425578584.dir/SSIZE_T_LIBZIP.c.o   -c /home/fserrano/libzip/build/CMakeFiles/CheckTypeSize/SSIZE_T_LIBZIP.c
+Linking C executable cmTryCompileExec425578584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec425578584.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec425578584.dir/SSIZE_T_LIBZIP.c.o  -o cmTryCompileExec425578584 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/fserrano/libzip/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4032248886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4032248886.dir/build.make CMakeFiles/cmTryCompileExec4032248886.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/libzip/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4032248886.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTryCompileExec4032248886.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4032248886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4032248886.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt    CMakeFiles/cmTryCompileExec4032248886.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4032248886 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/libzip/build/CMakeFiles/CMakeTmp»
+
+

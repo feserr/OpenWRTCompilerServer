@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../regress/../lib/zip.h
+zipconf.h
+-
+sys/types.h
+-
+stdio.h
+-
+time.h
+-
+
+/home/fserrano/libzip/regress/add_from_filep.c
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+zip.h
+/home/fserrano/libzip/regress/zip.h
+
+regress/../zipconf.h
+stdint.h
+-
+inttypes.h
+-
+sys/types.h
+-
+

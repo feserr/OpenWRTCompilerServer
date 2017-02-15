@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/hole.dir/hole.c.o CMakeFiles/hole.dir/source_hole.c.o  -o hole -rdynamic ../lib/libzip.so.3.0 -lz -Wl,-rpath,/home/fserrano/OpenWRTCompilerServer/build/libzip/lib 

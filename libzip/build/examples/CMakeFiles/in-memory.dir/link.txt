@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/in-memory.dir/in-memory.c.o  -o in-memory -rdynamic ../lib/libzip.so.3.0 -lz -Wl,-rpath,/home/fserrano/libzip/build/lib 

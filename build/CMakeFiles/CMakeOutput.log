@@ -1,0 +1,785 @@
+The system is: Linux - 3.19.0-25-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec724987963/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec724987963.dir/build.make CMakeFiles/cmTryCompileExec724987963.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec724987963.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec724987963.dir/testCCompiler.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec724987963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec724987963.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec724987963.dir/testCCompiler.c.o  -o cmTryCompileExec724987963 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2452409056/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2452409056.dir/build.make CMakeFiles/cmTryCompileExec2452409056.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2452409056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2452409056.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2452409056 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2452409056' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2452409056 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2452409056/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2452409056.dir/build.make CMakeFiles/cmTryCompileExec2452409056.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2452409056]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2452409056.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2452409056 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2452409056' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2452409056 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2452409056] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2452409056.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1564599854/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1564599854.dir/build.make CMakeFiles/cmTryCompileExec1564599854.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1564599854.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1564599854.dir/testCXXCompiler.cxx.o -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1564599854
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1564599854.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1564599854.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1564599854 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4092510576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4092510576.dir/build.make CMakeFiles/cmTryCompileExec4092510576.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4092510576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4092510576.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4092510576 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4092510576' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4092510576 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4092510576/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4092510576.dir/build.make CMakeFiles/cmTryCompileExec4092510576.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4092510576]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4092510576.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4092510576 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4092510576' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4092510576 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4092510576] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec4092510576.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function fileno exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1735037654/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1735037654.dir/build.make CMakeFiles/cmTryCompileExec1735037654.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1735037654.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fileno   -o CMakeFiles/cmTryCompileExec1735037654.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1735037654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1735037654.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fileno    CMakeFiles/cmTryCompileExec1735037654.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1735037654 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1044444119/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1044444119.dir/build.make CMakeFiles/cmTryCompileExec1044444119.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1044444119.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec1044444119.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1044444119
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1044444119.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec1044444119.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1044444119 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec234363729/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec234363729.dir/build.make CMakeFiles/cmTryCompileExec234363729.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec234363729.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTryCompileExec234363729.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec234363729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec234363729.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello    CMakeFiles/cmTryCompileExec234363729.dir/CheckFunctionExists.c.o  -o cmTryCompileExec234363729 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1088695104/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1088695104.dir/build.make CMakeFiles/cmTryCompileExec1088695104.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1088695104.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open   -o CMakeFiles/cmTryCompileExec1088695104.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1088695104
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1088695104.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open    CMakeFiles/cmTryCompileExec1088695104.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1088695104 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1891104626/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1891104626.dir/build.make CMakeFiles/cmTryCompileExec1891104626.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1891104626.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTryCompileExec1891104626.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1891104626
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1891104626.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec1891104626.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1891104626 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2010375405/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2010375405.dir/build.make CMakeFiles/cmTryCompileExec2010375405.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2010375405.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec2010375405.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2010375405
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2010375405.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTryCompileExec2010375405.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2010375405 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2412496123/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2412496123.dir/build.make CMakeFiles/cmTryCompileExec2412496123.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2412496123.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTryCompileExec2412496123.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2412496123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2412496123.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTryCompileExec2412496123.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2412496123 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1128737802/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1128737802.dir/build.make CMakeFiles/cmTryCompileExec1128737802.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1128737802.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec1128737802.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1128737802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1128737802.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTryCompileExec1128737802.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1128737802 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files fts.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec795071988/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec795071988.dir/build.make CMakeFiles/cmTryCompileExec795071988.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec795071988.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec795071988.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec795071988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec795071988.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec795071988.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec795071988 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1805977450/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1805977450.dir/build.make CMakeFiles/cmTryCompileExec1805977450.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1805977450.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1805977450.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1805977450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1805977450.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1805977450.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1805977450 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3458593415/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3458593415.dir/build.make CMakeFiles/cmTryCompileExec3458593415.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3458593415.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3458593415.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3458593415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3458593415.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3458593415.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3458593415 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2850741257/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2850741257.dir/build.make CMakeFiles/cmTryCompileExec2850741257.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2850741257.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2850741257.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2850741257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2850741257.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2850741257.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2850741257 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2406000339/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2406000339.dir/build.make CMakeFiles/cmTryCompileExec2406000339.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2406000339.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2406000339.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2406000339
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2406000339.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2406000339.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2406000339 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1553843840/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1553843840.dir/build.make CMakeFiles/cmTryCompileExec1553843840.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1553843840.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1553843840.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1553843840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1553843840.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1553843840.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1553843840 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec971760805/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec971760805.dir/build.make CMakeFiles/cmTryCompileExec971760805.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec971760805.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec971760805.dir/CheckIncludeFiles.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec971760805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec971760805.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec971760805.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec971760805 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3719201069/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3719201069.dir/build.make CMakeFiles/cmTryCompileExec3719201069.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3719201069.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3719201069.dir/CheckIncludeFile.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3719201069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3719201069.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3719201069.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3719201069 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec893614576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec893614576.dir/build.make CMakeFiles/cmTryCompileExec893614576.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec893614576.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec893614576.dir/CheckIncludeFile.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec893614576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec893614576.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec893614576.dir/CheckIncludeFile.c.o  -o cmTryCompileExec893614576 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2322180013/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2322180013.dir/build.make CMakeFiles/cmTryCompileExec2322180013.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2322180013.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2322180013.dir/CheckIncludeFile.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2322180013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2322180013.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2322180013.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2322180013 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1875751929/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1875751929.dir/build.make CMakeFiles/cmTryCompileExec1875751929.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1875751929.dir/INT8_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1875751929.dir/INT8_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/INT8_T_LIBZIP.c
+Linking C executable cmTryCompileExec1875751929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1875751929.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1875751929.dir/INT8_T_LIBZIP.c.o  -o cmTryCompileExec1875751929 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1910313567/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1910313567.dir/build.make CMakeFiles/cmTryCompileExec1910313567.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1910313567.dir/UINT8_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1910313567.dir/UINT8_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/UINT8_T_LIBZIP.c
+Linking C executable cmTryCompileExec1910313567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1910313567.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1910313567.dir/UINT8_T_LIBZIP.c.o  -o cmTryCompileExec1910313567 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec54576661/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec54576661.dir/build.make CMakeFiles/cmTryCompileExec54576661.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec54576661.dir/INT16_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec54576661.dir/INT16_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/INT16_T_LIBZIP.c
+Linking C executable cmTryCompileExec54576661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec54576661.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec54576661.dir/INT16_T_LIBZIP.c.o  -o cmTryCompileExec54576661 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1221132079/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1221132079.dir/build.make CMakeFiles/cmTryCompileExec1221132079.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1221132079.dir/UINT16_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1221132079.dir/UINT16_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/UINT16_T_LIBZIP.c
+Linking C executable cmTryCompileExec1221132079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1221132079.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1221132079.dir/UINT16_T_LIBZIP.c.o  -o cmTryCompileExec1221132079 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec175215676/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec175215676.dir/build.make CMakeFiles/cmTryCompileExec175215676.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec175215676.dir/INT32_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec175215676.dir/INT32_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/INT32_T_LIBZIP.c
+Linking C executable cmTryCompileExec175215676
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec175215676.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec175215676.dir/INT32_T_LIBZIP.c.o  -o cmTryCompileExec175215676 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2224910141/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2224910141.dir/build.make CMakeFiles/cmTryCompileExec2224910141.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2224910141.dir/UINT32_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2224910141.dir/UINT32_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/UINT32_T_LIBZIP.c
+Linking C executable cmTryCompileExec2224910141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2224910141.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2224910141.dir/UINT32_T_LIBZIP.c.o  -o cmTryCompileExec2224910141 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2605580126/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2605580126.dir/build.make CMakeFiles/cmTryCompileExec2605580126.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2605580126.dir/INT64_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2605580126.dir/INT64_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/INT64_T_LIBZIP.c
+Linking C executable cmTryCompileExec2605580126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2605580126.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2605580126.dir/INT64_T_LIBZIP.c.o  -o cmTryCompileExec2605580126 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1245235930/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1245235930.dir/build.make CMakeFiles/cmTryCompileExec1245235930.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1245235930.dir/UINT64_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1245235930.dir/UINT64_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/UINT64_T_LIBZIP.c
+Linking C executable cmTryCompileExec1245235930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1245235930.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1245235930.dir/UINT64_T_LIBZIP.c.o  -o cmTryCompileExec1245235930 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec61746845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec61746845.dir/build.make CMakeFiles/cmTryCompileExec61746845.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec61746845.dir/SHORT_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec61746845.dir/SHORT_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/SHORT_LIBZIP.c
+Linking C executable cmTryCompileExec61746845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec61746845.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec61746845.dir/SHORT_LIBZIP.c.o  -o cmTryCompileExec61746845 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3209593226/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3209593226.dir/build.make CMakeFiles/cmTryCompileExec3209593226.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3209593226.dir/INT_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3209593226.dir/INT_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/INT_LIBZIP.c
+Linking C executable cmTryCompileExec3209593226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3209593226.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3209593226.dir/INT_LIBZIP.c.o  -o cmTryCompileExec3209593226 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3874287604/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3874287604.dir/build.make CMakeFiles/cmTryCompileExec3874287604.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3874287604.dir/LONG_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3874287604.dir/LONG_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/LONG_LIBZIP.c
+Linking C executable cmTryCompileExec3874287604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3874287604.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3874287604.dir/LONG_LIBZIP.c.o  -o cmTryCompileExec3874287604 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec138168263/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec138168263.dir/build.make CMakeFiles/cmTryCompileExec138168263.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec138168263.dir/LONG_LONG_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec138168263.dir/LONG_LONG_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/LONG_LONG_LIBZIP.c
+Linking C executable cmTryCompileExec138168263
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec138168263.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec138168263.dir/LONG_LONG_LIBZIP.c.o  -o cmTryCompileExec138168263 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2849665107/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2849665107.dir/build.make CMakeFiles/cmTryCompileExec2849665107.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2849665107.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2849665107.dir/SIZEOF_OFF_T.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTryCompileExec2849665107
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2849665107.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2849665107.dir/SIZEOF_OFF_T.c.o  -o cmTryCompileExec2849665107 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2596081999/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2596081999.dir/build.make CMakeFiles/cmTryCompileExec2596081999.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2596081999.dir/SIZE_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2596081999.dir/SIZE_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/SIZE_T_LIBZIP.c
+Linking C executable cmTryCompileExec2596081999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2596081999.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2596081999.dir/SIZE_T_LIBZIP.c.o  -o cmTryCompileExec2596081999 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec991252718/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec991252718.dir/build.make CMakeFiles/cmTryCompileExec991252718.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec991252718.dir/SSIZE_T_LIBZIP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec991252718.dir/SSIZE_T_LIBZIP.c.o   -c /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CheckTypeSize/SSIZE_T_LIBZIP.c
+Linking C executable cmTryCompileExec991252718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec991252718.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec991252718.dir/SSIZE_T_LIBZIP.c.o  -o cmTryCompileExec991252718 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2519565519/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2519565519.dir/build.make CMakeFiles/cmTryCompileExec2519565519.dir/build
+make[1]: se ingresa al directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2519565519.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTryCompileExec2519565519.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2519565519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2519565519.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt    CMakeFiles/cmTryCompileExec2519565519.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2519565519 -rdynamic 
+make[1]: se sale del directorio «/home/fserrano/OpenWRTCompilerServer/build/CMakeFiles/CMakeTmp»
+
+
